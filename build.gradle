@@ -33,6 +33,10 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation group: 'org.springframework.boot',
             name: 'spring-boot-starter-validation', version: '3.2.1'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-hateoas'
+    implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.2.0'
+    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '3.1.5', ext: 'pom'
+
 }
 
 tasks.named('bootBuildImage') {

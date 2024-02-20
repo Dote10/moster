@@ -19,7 +19,7 @@ public class MonsterApplication {
     @Bean
     public LocaleResolver localeResolver(){
         SessionLocaleResolver localeResolver = new SessionLocaleResolver();
-        localeResolver.setDefaultLocale(Locale.US);
+        //localeResolver.setDefaultLocale(Locale.US);
         return localeResolver;
     }
 
