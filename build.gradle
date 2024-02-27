@@ -38,11 +38,6 @@ dependencies {
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-parent', version: '3.1.5', ext: 'pom'
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version: '3.2.1'
     implementation group: 'org.springframework.data', name: 'spring-data-rest-hal-explorer', version: '4.2.3'
-    implementation group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '3.0.2'
-
-
-
-
 }
 
 tasks.named('bootBuildImage') {
